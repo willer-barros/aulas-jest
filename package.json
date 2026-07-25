@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "Willer Barros",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "module"
 }
