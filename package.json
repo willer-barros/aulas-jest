@@ -1,7 +1,7 @@
 {
   "name": "jest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto criado para ensinar testes unitarios",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "Willer Barros",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "jest": "^30.4.2"
+  }
 }
