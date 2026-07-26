@@ -1,7 +1,7 @@
-import aula_1 from "../src/aula_1.js"
+import sum from "../src/aula_1.js"
 
 //declaro a funcao test() para executar o teste
-test("Aplicar Desconto", () =>{
-    const result = aula_1.aplicarDesconto(10,5)
-    expect(result).toEquals(5);
+test("Aplicar soma", () =>{
+    const result = sum(10,5)
+    expect(result).toEqual(15)
 })

@@ -1,10 +1,5 @@
-function aplicarDesconto(valor, desconto){
-    return valor - desconto;
+function sum(a,b){
+    return a + b
 }
 
-function  validacaoCpf(cpf){
-    const verificaCpf = cpf.length(11)
-    return verificaCpf
-}
-
-export {aplicarDesconto}
+export default sum;
